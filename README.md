@@ -11,7 +11,7 @@ Created with ❤️️ using Flutter
 Submited for #Hacktoberfest  
 
 # The name that contribute to this project:
-Nikki, Wahyu Taqdirul Aziz, Andri WWahyu Anugrah, Alim, Irfan, Samsul Hanan.
+Nikki, Wahyu Taqdirul Aziz, Andri Wahyu Anugrah, Alim, Irfan, Samsul Hanan.
 
 
 
