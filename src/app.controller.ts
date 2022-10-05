@@ -14,6 +14,8 @@ export class AppController {
   getHellojuga(): string {
     return this.appService.getHellojuga();
   }
+
+}
   @Get('/hi')
   getHi(): string {
     return 'Hi!';
