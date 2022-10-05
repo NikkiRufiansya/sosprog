@@ -1,7 +1,6 @@
 import * as dotenv from 'dotenv';
 import { Injectable } from '@nestjs/common';
 import { Sequelize } from 'sequelize-typescript';
-import { User } from 'src/users/entities/user.entity';
 dotenv.config;
 
 @Injectable()
@@ -19,7 +18,7 @@ export const databaseProviders = [
           password: process.env.DB_PASS,
           database: process.env.DB_NAME,
         });
-        sequelize.addModels([User]);
+        sequelize.addModels([]);
         await sequelize.sync();
         return sequelize;
       },

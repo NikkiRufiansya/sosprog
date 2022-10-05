@@ -6,8 +6,8 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  getHello() {
-    return 'Web server is running';
+  getHello(): string {
+    return this.appService.getHello();
   }
 
   @Get('/hallo')
