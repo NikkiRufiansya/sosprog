@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className="text-2xl text-[#f77] font-extrabold">
+        <h1 className="text-2xl text-[#f77] font-extrabold hover:text-yellow-500 hover:text-5xl">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
           doloremque quos voluptatum aut odit placeat xsit totam nulla possimus
           deleniti.
